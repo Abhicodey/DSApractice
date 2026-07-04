@@ -46,5 +46,5 @@ int main() {
             }
             left++;
         }
-    }
+    }//optimal solution time complexity is O(n^2) and space complexity is O(1)
 }
