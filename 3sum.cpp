@@ -114,7 +114,7 @@ int main(){
 
             cout << x << " ";
 
-        cout << endl;
+        cout << endl;//optimal solution time complexity is O(n^2) and space complexity is O(1)
 
     }
 
