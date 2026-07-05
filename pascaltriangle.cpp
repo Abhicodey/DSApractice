@@ -20,7 +20,7 @@ int main() {
     int n = 5; 
     pascalTriangle(n);
     return 0;
-}  */
+}  */ //printing nth row of pascal triangle using nCr formula time complexity is O(n) and space complexity is O(1)
 
 /*void nthRow(int n) {
 
@@ -50,9 +50,10 @@ int main() {
 
     return 0;
 
-}*/
+}*/ //priting nth row elements of pascal triangle using nCr formula time complexity is O(n) and space complexity is O(1)
 long long nCr(int n, int r) {
     long long ans = 1;
+    r = min(r, n - r); // Take advantage of symmetry property
 
     for (int i = 0; i < r; i++) {
         ans = ans * (n - i);
@@ -69,5 +70,5 @@ int main() {
 
     cout << nCr(row - 1, col - 1);
 
-    return 0;
+    return 0;//printing nth row and rth column element of pascal triangle using nCr formula time complexity is O(r) and space complexity is O(1)
 }
