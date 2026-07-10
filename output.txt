@@ -1,6 +1,1 @@
-Repeating number is 1
-Repeating number is 2
-Repeating number is 3
-Repeating number is 4
-Repeating number is 1
-Repeating number is 6
+Inversion count is 12
