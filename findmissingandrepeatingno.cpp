@@ -15,7 +15,7 @@ int main(){
         }
         else if(cnt==2){
             cout<<"Repeating number is "<<i<<endl;
-        }
+        }//bruete force solution time complexity is O(n^2) and space complexity is O(1)
     }*/
    /*int hash[n+1]={0};
    for(int i=0;i<n;i++){
@@ -33,7 +33,7 @@ int main(){
             break;
         }
     
-}
+}//better solution time complexity is O(n) and space complexity is O(n)
 cout<<"Repeating number is "<<repeating<<endl;
 cout<<"Missing number is "<<missing<<endl;*/
 /*int sn=(n*(n+1))/2;
@@ -47,7 +47,7 @@ int val1=s-sn;
 int val2=s2-s2n;
 val2=val2/val1;
 int x=(val1+val2)/2;
-int y=x-val1; 
+int y=x-val1; //optimal solution time complexity is O(n) and space complexity is O(1)
 cout<<"Repeating number is "<<x<<endl;
 cout<<"Missing number is "<<y<<endl;*/
 int xr=0;
@@ -78,7 +78,7 @@ for(int i=1;i<=n;i++){
     else{
         zero=zero^i;
     }
-}
+}//optimal solution time complexity is O(n) and space complexity is O(1)
 cout<<"Repeating number is "<<one<<endl;
 cout<<"Missing number is "<<zero<<endl;
 return 0;
