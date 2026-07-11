@@ -1,1 +1,1 @@
-Inversion count is 12
+5
