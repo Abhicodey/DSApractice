@@ -16,9 +16,6 @@ int arr[]={24,1,56,3,80,12};
         }//brute force approach time complexity O(n^2) and space complexity O(1)
     }
     cout<<count;
-    //optimal approach using merge sort time complexity O(nlogn) and space complexity O(n)
-    
-
 }*/ 
 int countPairs(int low, int mid, int high)
 
@@ -148,6 +145,6 @@ int main()
 
     cout << ans << endl;
 
-    return 0;
+    return 0;//optimal solution using merge sort time complexity O(nlogn) and space complexity O(n)
 
 }
